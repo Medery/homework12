@@ -1,0 +1,30 @@
+.review__first-block, .review__second-block, .review__third-block {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.review__first-person, 
+.review__second-person, 
+.review__third-person 
+{
+    text-align: center;
+    margin-right: 20px;
+}
+
+.review__text {
+    width: 50vw;
+    padding-top: 52px;
+}
+
+.review img {
+    width: 100%;
+    margin-bottom: 11px;
+}
+
+.review h2 {
+    margin-bottom: 40px;
+}
+
+.review {
+    margin-bottom: 100px;
+}

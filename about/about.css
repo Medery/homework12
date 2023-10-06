@@ -1,0 +1,46 @@
+.about {
+    font-size: 1.4em;
+    margin-bottom: 100px;
+}
+
+.about-block{
+    display: flex;
+}
+
+.about-block__photo {
+    width: 50%;
+    margin-right: 40px;
+}
+
+.about-block__vertical {
+    width: 45%;
+}
+
+.about-block__photo, .about-block_vertical {
+    min-height: 600px;
+} 
+
+.about__title {
+    margin-bottom: 40px;
+}
+
+
+
+.about-block__quote-block p:first-of-type {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+  
+.about-block__quote-text::before,
+.about-block__quote-text::after {
+    content: '"';
+    color: #6C0287;
+    font-weight: 900;
+  }
+  
+.main-person {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;;
+}
